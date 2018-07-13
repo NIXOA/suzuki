@@ -8,4 +8,5 @@ eureka:
     register-with-eureka: false
   ######检索服务设置为false
     fetch-registry: false
-    serviceUrl.defalutZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    serviceUrl:
+      defalutZone: http://${eureka.instance.hostname}:${server.port}/eureka/
