@@ -1,18 +1,19 @@
-package org.xujin.sc.controller;
+package com.suzuki.feign.controller;
 
+import com.suzuki.feign.feign.HelloFeignService;
 import lombok.extern.apachecommons.CommonsLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.xujin.sc.feign.HelloFeignService;
 
 import java.util.Date;
 
 /**
- * @author: xujin
- **/
+ * @Author yekai
+ * @Date 2018/7/19 15:40
+ */
 @CommonsLog
 @RequestMapping("/hello")
 @RestController
