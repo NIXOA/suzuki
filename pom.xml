@@ -14,6 +14,8 @@
         <module>eureka-client</module>
         <module>gateway</module>
         <module>fegin-consumer</module>
+        <module>fegin-producer</module>
+        <module>ribbon-consumer</module>
     </modules>
 
     <parent>
